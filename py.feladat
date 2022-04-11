@@ -1,0 +1,26 @@
+Készíts egy programot, amely a felhasználótól számokat kér be mindaddig, amíg az csupán ENTER-t nem üt! A számokat tárolja el a program egy listában! Az adatbekérés befejezte után írja ki a program a lista elemeit, a legkisebb és a legnagyobb számot!
+
+'''
+szamok = []
+while True:
+
+  szoveg = input("kérek egy számot:")
+  if szoveg == "":
+    break
+  else:
+    szam = int(szoveg)
+    szamok.append(szam)
+
+legkisebb = szamok[0]
+for szam in szamok:
+  if szam < legkisebb:
+    legkisebb = szam
+
+legnagyobb = szamok[0]
+for szam in szamok:
+  if szam > legnagyobb:
+    legnagyobb = szam
+
+print(szamok)
+print(legkisebb)
+print(legnagyobb)
