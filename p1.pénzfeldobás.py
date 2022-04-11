@@ -2,17 +2,14 @@
 A program a pénzfeldobást modellezi. Kérdezze meg a felhasználótól a választását (fej vagy írás), majd adjon tájékoztatást, hogy eltalálta-e!
 '''
 
-import random
+from random import choice
 
-random.seed()
+lista = ['fej', 'irás']
 
-def f(i):
-    print("%d. feladat" % i)
+beker = input('Fej vagy írás?: ')
+valaszt = choice(lista)
 
-def egydobas():
-    return random.choice('FI')
-    
-tipp = input('Tippeljen! (F/I)= ')
-dob = egydobas()
-print('A tipp %s, a dobás eredménye %s volt.' % (tipp, dob))
-print('Ön eltalálta.' if tipp == dob else 'Ön nem találta el.')
+if beker == valaszt:
+    print('Eltaláltad')
+else:
+    print('nem találtad el')
