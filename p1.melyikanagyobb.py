@@ -16,7 +16,7 @@ Adj meg egy másik számot! 999
 A két szám egyenlő
 ------------------
 '''
-#1
+
 szam = int(input("Adj meg egy számot! "))
 szam2 = int(input("Adj meg egy másik számot! "))
 if szam > szam2:
