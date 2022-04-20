@@ -1,0 +1,13 @@
+'''
+Írj egy Python programot, amely bekér három egész számot a felhasználótól és kiírja a
+képernyőre, hogy mind a három páros szám-e (igen/nem)!
+
+'''
+
+szam1 = int(input('Adjon meg egy egész számot: '))
+szam2 = int(input('Adjon meg egy egész számot: '))
+szam3 = int(input('Adjon meg egy egész számot: '))
+if szam1 % 2 == 0 and szam2 % 2 == 0 and szam3 % 2 == 0:
+    print('igen')
+else:
+    print('nem')
