@@ -1,0 +1,8 @@
+'''
+Írj egy Python programot, amely bekér egy szót (sztringet) a felhasználótól és kiírja a
+képernyőre a szó betűit, úgy, hogy minden betű egy új sorba kerüljön!
+'''
+
+szo = input('Adjon meg egy szót: ')
+for i in szo:
+    print(i)
