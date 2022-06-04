@@ -1,4 +1,3 @@
-
 """
 Feladat:
 Írj egy programot, amely a felhasználótól bekér 3 szót, ezeket egy listában tárolja, és egy eljárás
