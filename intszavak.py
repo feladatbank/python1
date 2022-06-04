@@ -1,6 +1,6 @@
 """
-írj egy programot, ami: bekér egy számot (int), majd egy tetszőlesges karakterlácot (string). 
-Ezt követően kiírja a karakterláncot csupa nagybetüvel, egymás mellé, szóközökkel elválasztva annyiszor, amennyiv a bekért egész szám volt!"""
+írj egy programot, ami: bekér egy számot (int), majd egy tetszőleges karakterláncot (string). 
+Ezt követően kiírja a karakterláncot csupa nagybetűvel, egymás mellé, szóközökkel elválasztva annyiszor, amennyiszer a bekért egész szám volt!"""
 
 """
 Minta: (output)
